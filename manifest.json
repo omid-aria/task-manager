@@ -1,0 +1,30 @@
+{
+    "name": "مدیریت وظایف - TaskMaster",
+    "short_name": "وظایف",
+    "description": "برنامه مدیریت وظایف روزانه",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#6366f1",
+    "theme_color": "#6366f1",
+    "orientation": "portrait",
+    "lang": "fa",
+    "dir": "rtl",
+    "icons": [
+        {
+            "src": "https://cdn-icons-png.flaticon.com/512/4697/4697260.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://cdn-icons-png.flaticon.com/128/4697/4697260.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn-icons-png.flaticon.com/64/4697/4697260.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ]
+}
