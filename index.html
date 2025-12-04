@@ -1371,11 +1371,11 @@
                 const parts = dateStr.split('/');
                 if (parts.length !== 3) return dateStr;
                 
-                const pDate = new persianDate([
-                    parseInt(parts[0]), 
-                    parseInt(parts[1]), 
-                    parseInt(parts[2])
-                ]);
+                const year = parseInt(parts[0]);
+                const month = parseInt(parts[1]) - 1;
+                const day = parseInt(parts[2]);
+                
+                const pDate = new persianDate([year, month, day]);
                 
                 const today = new persianDate();
                 const tomorrow = new persianDate().add('day', 1);
