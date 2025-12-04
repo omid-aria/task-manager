@@ -2,7 +2,7 @@
     "name": "مدیریت وظایف - TaskMaster",
     "short_name": "وظایف",
     "description": "برنامه مدیریت وظایف روزانه",
-    "start_url": "/",
+    "start_url": "/task-manager/",
     "display": "standalone",
     "background_color": "#6366f1",
     "theme_color": "#6366f1",
